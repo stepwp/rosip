@@ -1,17 +1,8 @@
 name: Build cn ipv4 files
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 4"
   push:
     branches:
       - master
-    paths-ignore:
-      - ".gitignore"
-      - "config-example.json"
-      - "LICENSE"
-      - "README.md"
-      - ".github/dependabot.yml"
 jobs:
   build:
     name: Build
@@ -19,6 +10,7 @@ jobs:
     steps:
       - name: run.sh
         run: |
+          chmoa a+x run.sh
           ./run.sh
       
       - name: Move files to publish directory
