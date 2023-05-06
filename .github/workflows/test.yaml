@@ -30,3 +30,4 @@ jobs:
         run: |
           chmod a+x run.sh
           ./run.sh
+          cat cnip.rsc
