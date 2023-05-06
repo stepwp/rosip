@@ -33,9 +33,9 @@ jobs:
           chmod a+x run.sh
           ./run.sh
           mkdir pushdir
-          mv cnip.rsc ./pushdir
+          cp cnip.rsc ./pushdir
       - name: push
         uses: peaceiris/actions-gh-pages@v3
         with: 
           personal_token: ${{ secrets.ACCESS_TOKEN }} 
-          publish_dir: ./pushdir
+          publish_file: cnip.rsc
