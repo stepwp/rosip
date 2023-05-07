@@ -18,10 +18,10 @@ jobs:
       
     - name: Update README
       run: |
-        chmmoda a+x run.sh
+        chmod a+x run.sh
         ./run.sh
         git config --global user.name "Your Name"
         git config --global user.email "your.email@example.com"
         git add .
-        git commit -m "Update"
+        git commit -m "Update $(date +"%Y-%m-%d")"
         git push
