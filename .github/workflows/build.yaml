@@ -32,8 +32,27 @@ jobs:
           ./run.sh
           mkdir pushdir
           cp cnip.rsc ./pushdir
-      - name: push
-        uses: peaceiris/actions-gh-pages@v3
-        with: 
-          personal_token: ${{ secrets.ACCESS_TOKEN }} 
-          publish_dir: cnip.rsc
+      - name: Move files to publish directory
+        run: |
+          mkdir -p publish
+          cp cnip.rsc ./publish
+
+      - name: Git push assets to "release" branch
+        run: |
+          cd publish || exit 1
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b release
+          git add -A
+          git commit -m "${{ env.RELEASE_NAME }}"
+          git remote add rosip "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u rosip release
+
+      - name: Upload files to GitHub release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file_glob: true
+          file: ./publish/*
+          tag: ${{ env.TAG_NAME }}
