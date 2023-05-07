@@ -4,13 +4,13 @@ name: CI
 
 # Controls when the workflow will run
 on:
-  repository_dispatch:
   workflow_dispatch:
-    inputs:
-      ssh:
-        description: 'SSH connection to Actions'
-        required: 'true'
-        default: 'true'
+  schedule:
+    - cron: "0 0 * * 4"
+  push:
+    branches:
+      - master
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
