@@ -950,7 +950,6 @@ add address=45.192.187.0/24 list=CNIP
 add address=45.192.189.0/24 list=CNIP
 add address=45.192.190.0/24 list=CNIP
 add address=45.195.6.0/24 list=CNIP
-add address=45.202.69.0/24 list=CNIP
 add address=45.248.8.0/22 list=CNIP
 add address=45.248.80.0/22 list=CNIP
 add address=45.248.88.0/22 list=CNIP
@@ -1797,7 +1796,6 @@ add address=103.58.24.0/22 list=CNIP
 add address=103.59.76.0/22 list=CNIP
 add address=103.59.112.0/21 list=CNIP
 add address=103.59.120.0/24 list=CNIP
-add address=103.59.123.0/24 list=CNIP
 add address=103.59.124.0/22 list=CNIP
 add address=103.59.128.0/22 list=CNIP
 add address=103.59.148.0/22 list=CNIP
@@ -1972,7 +1970,6 @@ add address=103.79.188.0/22 list=CNIP
 add address=103.79.192.0/20 list=CNIP
 add address=103.79.208.0/21 list=CNIP
 add address=103.79.228.0/23 list=CNIP
-add address=103.80.28.0/22 list=CNIP
 add address=103.80.44.0/22 list=CNIP
 add address=103.80.72.0/22 list=CNIP
 add address=103.80.176.0/21 list=CNIP
@@ -2650,7 +2647,6 @@ add address=103.185.78.0/23 list=CNIP
 add address=103.185.80.0/23 list=CNIP
 add address=103.186.4.0/23 list=CNIP
 add address=103.186.108.0/23 list=CNIP
-add address=103.186.158.0/23 list=CNIP
 add address=103.186.228.0/23 list=CNIP
 add address=103.189.92.0/23 list=CNIP
 add address=103.189.140.0/23 list=CNIP
@@ -4778,7 +4774,9 @@ add address=154.208.140.0/22 list=CNIP
 add address=154.208.144.0/20 list=CNIP
 add address=154.208.160.0/21 list=CNIP
 add address=154.208.172.0/23 list=CNIP
+add address=154.209.2.0/24 list=CNIP
 add address=154.209.251.0/24 list=CNIP
+add address=154.212.129.0/24 list=CNIP
 add address=154.213.4.0/23 list=CNIP
 add address=154.218.7.0/24 list=CNIP
 add address=154.223.168.0/23 list=CNIP
@@ -5164,6 +5162,7 @@ add address=183.192.0.0/10 list=CNIP
 add address=185.75.172.0/23 list=CNIP
 add address=185.75.174.0/24 list=CNIP
 add address=185.78.106.0/23 list=CNIP
+add address=185.241.43.0/24 list=CNIP
 add address=185.241.211.0/24 list=CNIP
 add address=185.255.152.0/24 list=CNIP
 add address=188.131.128.0/17 list=CNIP
