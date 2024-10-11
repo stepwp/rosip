@@ -4918,10 +4918,8 @@ add address=163.181.25.0/24 list=CNIP
 add address=163.181.26.0/24 list=CNIP
 add address=163.181.28.0/24 list=CNIP
 add address=163.181.32.0/21 list=CNIP
-add address=163.181.40.0/23 list=CNIP
-add address=163.181.42.0/24 list=CNIP
+add address=163.181.40.0/22 list=CNIP
 add address=163.181.44.0/24 list=CNIP
-add address=163.181.49.0/24 list=CNIP
 add address=163.181.50.0/24 list=CNIP
 add address=163.181.52.0/24 list=CNIP
 add address=163.181.56.0/23 list=CNIP
@@ -4975,9 +4973,7 @@ add address=163.181.196.0/22 list=CNIP
 add address=163.181.201.0/24 list=CNIP
 add address=163.181.202.0/23 list=CNIP
 add address=163.181.204.0/22 list=CNIP
-add address=163.181.208.0/24 list=CNIP
-add address=163.181.213.0/24 list=CNIP
-add address=163.181.214.0/23 list=CNIP
+add address=163.181.208.0/21 list=CNIP
 add address=163.181.216.0/24 list=CNIP
 add address=163.181.219.0/24 list=CNIP
 add address=163.181.220.0/23 list=CNIP
