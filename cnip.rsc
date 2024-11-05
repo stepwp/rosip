@@ -5177,6 +5177,7 @@ add address=185.75.172.0/23 list=CNIP
 add address=185.75.174.0/24 list=CNIP
 add address=185.78.106.0/23 list=CNIP
 add address=185.241.211.0/24 list=CNIP
+add address=185.255.152.0/24 list=CNIP
 add address=188.131.128.0/17 list=CNIP
 add address=191.101.45.0/24 list=CNIP
 add address=191.101.47.0/24 list=CNIP
