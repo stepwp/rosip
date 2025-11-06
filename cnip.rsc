@@ -760,6 +760,7 @@ add address=43.255.244.0/22 list=CNIP
 add address=44.30.15.0/24 list=CNIP
 add address=44.30.28.0/24 list=CNIP
 add address=44.31.28.0/24 list=CNIP
+add address=44.31.42.0/24 list=CNIP
 add address=44.31.81.0/24 list=CNIP
 add address=44.31.96.0/24 list=CNIP
 add address=44.31.216.0/24 list=CNIP
@@ -2804,8 +2805,7 @@ add address=103.202.236.0/22 list=CNIP
 add address=103.202.240.0/20 list=CNIP
 add address=103.203.0.0/19 list=CNIP
 add address=103.203.32.0/22 list=CNIP
-add address=103.203.56.0/23 list=CNIP
-add address=103.203.59.0/24 list=CNIP
+add address=103.203.56.0/22 list=CNIP
 add address=103.203.96.0/22 list=CNIP
 add address=103.203.104.0/21 list=CNIP
 add address=103.203.112.0/20 list=CNIP
@@ -4944,6 +4944,7 @@ add address=139.5.244.0/22 list=CNIP
 add address=139.9.0.0/18 list=CNIP
 add address=139.9.64.0/19 list=CNIP
 add address=139.9.96.0/23 list=CNIP
+add address=139.9.98.0/24 list=CNIP
 add address=139.9.100.0/22 list=CNIP
 add address=139.9.104.0/21 list=CNIP
 add address=139.9.112.0/20 list=CNIP
@@ -5095,7 +5096,6 @@ add address=153.101.0.0/16 list=CNIP
 add address=153.118.0.0/15 list=CNIP
 add address=154.8.128.0/17 list=CNIP
 add address=154.19.43.0/24 list=CNIP
-add address=154.38.104.0/22 list=CNIP
 add address=154.48.237.0/24 list=CNIP
 add address=154.72.42.0/24 list=CNIP
 add address=154.72.44.0/24 list=CNIP
@@ -5269,6 +5269,7 @@ add address=163.177.0.0/16 list=CNIP
 add address=163.179.0.0/16 list=CNIP
 add address=163.204.0.0/16 list=CNIP
 add address=163.223.178.0/23 list=CNIP
+add address=163.227.40.0/24 list=CNIP
 add address=163.228.0.0/16 list=CNIP
 add address=163.244.246.0/24 list=CNIP
 add address=164.52.74.0/24 list=CNIP
@@ -6861,7 +6862,6 @@ add address=203.160.70.196/31 list=CNIP
 add address=203.160.70.208/31 list=CNIP
 add address=203.160.104.0/22 list=CNIP
 add address=203.160.109.0/24 list=CNIP
-add address=203.160.110.0/23 list=CNIP
 add address=203.160.129.0/24 list=CNIP
 add address=203.160.192.0/19 list=CNIP
 add address=203.161.0.0/22 list=CNIP
