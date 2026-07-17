@@ -3459,6 +3459,7 @@ add address=203.95.0.0/23 list=CNIP
 add address=203.95.2.0/24 list=CNIP
 add address=203.95.4.0/22 list=CNIP
 add address=203.95.128.0/23 list=CNIP
+add address=203.99.18.0/24 list=CNIP
 add address=203.99.20.0/22 list=CNIP
 add address=203.99.24.0/21 list=CNIP
 add address=203.100.92.0/22 list=CNIP
